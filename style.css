@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  color: #7ddffa;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(img/wall.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  min-width: 1144px;
+  min-height: 906px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.navbar-nav {
+  text-align: center;
+}
+.introduction h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #7ddffa; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3s steps(40, end), blinks 0.75s step-end infinite;
+  height: 100%;
+}
+.introduction h5 {
+  font-size: 25px;
+  opacity: 0;
+  animation-name: largg;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-delay: 2.8s;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  transition: all ease 0.5s;
+}
+footer img:hover{
+    transform: translateY(-10px);
+}
+footer {
+  text-align: center;
+}
+#navbarNavAltMarkup a:hover {
+  color: #7ddffa;
+}
+.pcard {
+  height: 60vh;
+  background-color: #272831;
+  min-height: 543px;
+  min-width: 1144px;
+}
+
+.slick-slide img {
+  margin: 0 auto;
+  max-width: 100%;
+  border: 3px solid #7ddffa;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  
+}
+.a1{
+    background: linear-gradient(45deg, #000428, #004e92);
+
+}
+.a2{
+    background: linear-gradient(45deg, #141e30,#243b55);
+}
+.a3{
+    background: linear-gradient(45deg,#2b5876,#4e4376);
+}
+.a4{
+    
+    background: linear-gradient(45deg,#434343 ,#000000);
+}
+
+.a5{
+    background: linear-gradient(45deg,#36d1dc,#5b86e5);
+}
+.a6{
+    background: linear-gradient(45deg,#4568dc , #b06ab3);
+}
+.a7{
+    background: linear-gradient(45deg,#614385 ,#516395);
+}
+.a8{
+    background: linear-gradient(45deg,#bdc3c7,#2c3e50);
+}
+.a9{
+    background: linear-gradient(45deg,#a3bded,#6991c7);
+}
+.a10{
+    background: linear-gradient(45deg,#041b2d ,#428cd4);
+}
+.a12{
+    background: linear-gradient(45deg,#A40606 ,#D98324);
+}
+.a1 .social a{
+    background-color:#004e92;
+
+}
+.a2 .social a{
+    background-color:#243b55;
+
+}
+.a3 .social a{
+    background-color:#2b5876;
+
+}
+.a4 .social a{
+    background-color:#434343;
+
+}
+.a5 .social a{
+    background-color:#5b86e5;
+
+}
+.a6 .social a{
+    background-color:#4568dc;
+
+}
+.a7 .social a{
+    background-color:#614385;
+
+}
+.a8 .social a{
+    background-color:#bdc3c7;
+
+}
+.a9 .social a{
+    background-color:#6991c7;
+
+}
+.a10 .social a{
+    background-color:#428cd4;
+
+}
+.a12 .social a{
+    background-color:#D98324;
+
+}
+
+
+
+.item {
+  padding: 15px;
+  outline: none;
+  
+}
+
+.item-inner {
+    
+  
+  border-radius: 18px;
+  text-align: center;
+  padding: 25px;
+}
+.item-inner h4 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.item-inner p {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Open Sans";
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.social {
+  margin-top: 50px;
+}
+
+.social a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  
+  color: #f51717;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 5px;
+  transition: all ease 0.5s;
+}
+
+.social a:hover {
+  transform: translateY(-10px);
+}
+.slick-slide {
+  transform: scale(0.8);
+  opacity: 0.3;
+  transition: all ease 0.5s;
+}
+.slick-slide.slick-current {
+  transform: scale(1);
+  opacity: 1;
+}
+.slick-arrow {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+
+  border: none;
+  width: 100px;
+  outline: none;
+}
+.slick-next {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  right: 40%;
+  bottom: 5%;
+  
+}
+.slick-prev {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  left: 40%;
+  bottom: 5%;
+}
+.slick-list {
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+}
+@media (max-width: 460px) {
+  .introduction h5 {
+    font-size: 15px;
+    -webkit-animation-fill-mode: backwards;
+  }
+  .introduction h1 {
+    font-size: 20px;
+  }
+  .introduction img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinks {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #7ddffa;
+  }
+}
+
+@keyframes largg {
+  0% {
+    opacity: 0;
+    font-size: 10px;
+  }
+  25% {
+    opacity: 0.25;
+    font-size: 15px;
+  }
+  50% {
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  100% {
+    opacity: 1;
+    font-size: 25px;
+  }
+}

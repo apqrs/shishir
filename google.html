@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="myscripts.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Shishir</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        width: 100vw;
+        height: 100vh;
+      }
+      .top {
+        width: 100vw;
+        height: 32px;
+      }
+      .top div {
+        float: right;
+        display: flex;
+      }
+      .top a {
+        display: block;
+        padding: 10px;
+      }
+      .search {
+        text-align: center;
+        margin-top: 89px;
+      }
+      .searchbox {
+        margin: auto;
+        height: 46px;
+        width: 33vw;
+        border-radius: 30px;
+        border: 1px solid #dfe1e5;
+        display: flex;
+      }
+      .searchbox:hover {
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+      }
+      .searchbox input {
+        height: 100%;
+        width: 25vw;
+        border: none;
+      }
+      
+      button {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5f6368;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        background-color: #f2f2f2;
+      }
+      footer a {
+        padding: 5px;
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0.54);
+      }
+      .b {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div>
+        <a href="https://gmail.com" target="_blank">Gmail</a>
+        <a href="https://www.google.com/search?q=dog+image" target="_blank">Images</a>
+        <a href="https://google.com" target="_blank">
+        <img
+          src="img/google.jpg"
+          class="rounded-circle"
+          width="32px"
+          height="32px"
+          alt="Google"
+        />
+    </a>
+      </div>
+    </div>
+    <br />
+
+    <div class="search">
+      <img src="img/sroogle.png" class="sss" alt="" />
+
+      <div class="searchbox">
+        <img src="img/searchicon.png" class="rounded-circle" alt="" />
+        <form action="https://google.com/search" method="GET" id="gosearch">
+          <input type="text" name="q" id="" />
+        </form>
+      </div>
+
+      <button form="gosearch">Ask Shishir</button>
+      <button form="gosearch">I'm Feeling lucky</button>
+    </div>
+
+    <footer>
+      <span class="a">
+        <a href="">Advertising</a>
+        <a href="">Business</a>
+        <a href="">About</a>
+        <a href="">How Search works</a>
+      </span>
+      <span class="b">
+        <a href="">Privacy</a>
+        <a href="tos.html" target="_blank">Terms</a>
+        <a href="index.html" target="_blank">Shishir</a>
+      </span>
+    </footer>
+  </body>
+</html>
