@@ -12,4 +12,4 @@ Part of CS50:Introduction to Computer Science project
 ### Description:
 Uses HTML/CSS/JS to create a homepage design where you can showcase your projects, introduce yourself and let others contact you.
 
-## Live demo: https://therealpj24.github.io/CSProject
+## Live demo: https://therealpj24.github.io/shishir
