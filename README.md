@@ -1,7 +1,7 @@
 # CSProject
 ## Homepage
 
-Part of CS50:Introduction to Compupter Science project
+Part of CS50:Introduction to Computer Science project
 
  *Learnt*:
  * **Html**
